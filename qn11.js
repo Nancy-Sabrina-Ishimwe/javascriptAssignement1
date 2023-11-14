@@ -11,4 +11,3 @@ function trianglePatern(rows) {
    }
    }
    trianglePatern(4,5);
-   

@@ -5,7 +5,7 @@
 1 0 0 0  
 */
 
-function squarePatern(rows,cols) {
+function squarePatern(rows) {
     for (let i = rows; i>=1 ; i--) {
      console.log('1 '.repeat(i) + '0 '.repeat(rows - i));
    }

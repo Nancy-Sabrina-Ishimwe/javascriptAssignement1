@@ -7,9 +7,12 @@ From the same sorted array, also display the first 3 numbers. */
 
 function sortAndArrange(arr) {
     arr.sort((a, b) => a - b);
+    console.log(numbers);// output Outputs: [1, 2, 2, 2, 3, 3, 4, 4, 6, 8]
+    var firstThreeNumbers = numbers.slice(0, 3);
+    console.log(firstThreeNumbers); // Outputs: [1, 2, 2]
+
     var lastThreeNumbers = arr.slice(-3);
     console.log(lastThreeNumbers);
-   }
-   var numbers = [3,4,8,2,1,2,2,6,3,4];
-   sortAndArrange(numbers);
-   
+}
+var numbers = [3, 4, 8, 2, 1, 2, 2, 6, 3, 4];
+sortAndArrange(numbers);

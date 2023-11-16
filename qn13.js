@@ -6,10 +6,18 @@
 1 1 1 1 1
 */
 
-function squarePatern(rows,cols) {
-    for (let i = cols; i>=1 ; i--) {
-     console.log('1 '.repeat(i) + '0 '.repeat(rows - i) + '1');
-   }
-   
-}
-  squarePatern(5,5);//be back to you soon
+  function zeroOne(row){
+
+    for(let i=0; i<row; i++);
+    
+    var row =" ";
+    for(let j=0; j<0; j--);
+    if (j === 0||j===row-1|| i===0 || i=== row-1){
+      row+="1";
+    }
+      else {
+        row+="0";
+      }  
+      console.log(row);
+      }
+      zeroOne (5,5);

@@ -1,9 +1,8 @@
-//Write a function that removes the last element from an array.
+//Write a function that sorts an array of numbers in ascending order.
 
-function removeLastElement(arr) {
-    arr.pop();
-    return arr;
+function sortArray(arr) {
+    return arr.sort((a, b) => a - b);
    }
    
-   console.log(removeLastElement([1, 2, 3, 4, 5])); 
+   console.log(sortArray([5, 3, 8, 1, 4])); // Outputs: [1, 3, 4, 5, 8]
    
